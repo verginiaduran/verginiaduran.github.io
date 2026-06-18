@@ -107,6 +107,18 @@
   .card .tag{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px}
   .card a{color:var(--navy);font-weight:700;text-decoration:none;margin-top:22px;border-bottom:2px solid var(--gold)}
 
+  /* DEPOIMENTOS */
+  .depoimentos{background:var(--off)}
+  .depo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:48px}
+  .depo{background:#fff;border-radius:10px;padding:34px 28px;box-shadow:0 10px 36px rgba(13,27,46,.08);border-top:3px solid var(--gold);display:flex;flex-direction:column}
+  .depo-text{font-size:.95rem;color:#4d5662;font-style:italic;flex:1;margin-bottom:22px}
+  .depo-text::before{content:"\201C"}
+  .depo-text::after{content:"\201D"}
+  .depo-autor strong{display:block;color:var(--navy);font-family:'Playfair Display',serif;font-size:1rem}
+  .depo-autor span{display:block;color:#7a8494;font-size:.82rem;margin:4px 0 8px}
+  .depo-autor a{color:var(--gold);font-size:.78rem;text-decoration:none;font-weight:700}
+  @media(max-width:900px){.depo-grid{grid-template-columns:1fr}}
+
   /* CTA FINAL */
   .cta{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);text-align:center}
   .cta h2{color:#fff;font-size:clamp(1.7rem,3.4vw,2.4rem);max-width:22ch;margin:0 auto 18px}
@@ -256,6 +268,40 @@
         <p>Programa para desenvolvimento de lideranças — com assessment e avaliação 360. Para organizações que querem líderes preparados para a complexidade atual.</p>
         <div class="preco">Sob consulta<small>proposta conforme contexto da empresa</small></div>
         <a href="https://calendly.com/verginiaduran/sessao-de-clareza-estrategica-30-min" target="_blank" rel="noopener">Falar sobre minha empresa</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="depoimentos" id="depoimentos">
+  <div class="wrap">
+    <span class="sec-sub">Depoimentos</span>
+    <h2 class="sec-title">Quem viveu o processo, conta como foi.</h2>
+    <div class="depo-grid">
+      <div class="depo">
+        <p class="depo-text">A Verginia foi incrível e nossa sinergia aconteceu desde o primeiro contato pelo telefone. Vi nela a minha versão complementar. Sem palavras para agradecer por todo o comprometimento dela em me ajudar nessa mentoria. Consegui enxergar coisas que em minha zona de conforto não eram claras para mim. Serei eternamente grata a ela e a este maravilhoso e transformador programa!</p>
+        <div class="depo-autor">
+          <strong>Carla Galindo</strong>
+          <span>Real Estate, Abu Dhabi</span>
+          <a href="https://www.linkedin.com/in/galindo-carla/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="depo">
+        <p class="depo-text">A abordagem empática e o ambiente seguro proporcionado durante as sessões me permitiram explorar minhas metas e desafios de forma aberta e honesta. Como observação, estou comprometido em seguir minha vida com todo o autoconhecimento adquirido e sempre buscar minha felicidade. Agradeço profundamente à minha coach pela orientação e apoio ao longo desta jornada transformadora.</p>
+        <div class="depo-autor">
+          <strong>Renato Nascimento</strong>
+          <span>Planejador financeiro, São Paulo</span>
+          <a href="https://www.instagram.com/rholanda.martins" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="depo">
+        <p class="depo-text">Verginia, é muito bom ter você olhando para mim e me pontuando de conhecer o meu potencial, é muito bom para que eu cresça como pessoa e tenha esse desenvolvimento. Você me fez lembrar de meu potencial, do meu valor que eu não olhava assim. Tenho muito a agradecer, ter sua presença, seu carinho e sua atenção, foi muito especial para mim.</p>
+        <div class="depo-autor">
+          <strong>Edilma Chacon</strong>
+          <span>Gerente de RH, transportadora</span>
+          <a href="https://www.linkedin.com/in/edilmachacon" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
       </div>
     </div>
   </div>
